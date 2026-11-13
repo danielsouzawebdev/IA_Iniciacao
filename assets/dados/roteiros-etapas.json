@@ -1,0 +1,290 @@
+{
+  "01-fundamentos": [
+    {
+      "titulo": "A cafeteria tem três pedidos",
+      "explicacao": "Somar o valor de 3 cafés; entender uma reclamação; e enviar uma confirmação após uma compra. Parece tudo trabalho de computador, mas não é a mesma tarefa.",
+      "olhar": "Antes de escolher uma ferramenta, pergunte: preciso calcular, interpretar uma mensagem ou executar uma ação repetida?",
+      "prompt": null
+    },
+    {
+      "titulo": "A analogia da caixa registradora",
+      "explicacao": "A calculadora resolve uma soma com regras definidas. A IA ajuda a interpretar linguagem e propor textos. Uma automação executa um passo combinado, como enviar uma confirmação.",
+      "olhar": "IA, regra e automação podem trabalhar juntas, mas não significam a mesma coisa.",
+      "prompt": null
+    },
+    {
+      "titulo": "Compare com o Gemini",
+      "explicacao": "Peça ao Gemini para separar as três tarefas. Ele deve justificar a escolha e admitir quando uma regra simples é suficiente.",
+      "olhar": "Confira se não recomendou IA desnecessariamente para o cálculo de preços.",
+      "prompt": "Na Café Horizonte temos três tarefas: (1) somar três produtos com preços fixos; (2) interpretar uma reclamação escrita pelo cliente; (3) enviar confirmação depois de um pedido. Diga qual combina com cálculo por regra, IA como apoio ou automação. Explique em frases curtas. Não invente dados."
+    },
+    {
+      "titulo": "E se a resposta parecer exagerada?",
+      "explicacao": "Se o Gemini sugerir um sistema complexo para somar preços, não aceite automaticamente. Compare simplicidade, precisão e necessidade humana.",
+      "olhar": "Boa decisão: calcular por regra, usar IA para apoiar a leitura da reclamação e automatizar uma confirmação apenas após validar os dados.",
+      "prompt": null
+    },
+    {
+      "titulo": "Agora é com você",
+      "explicacao": "Imagine uma oficina: calcular um orçamento, organizar uma mensagem confusa e avisar que o serviço ficou pronto. Escolha a forma de resolver cada tarefa e explique por quê.",
+      "olhar": "Você conseguiu justificar cada escolha sem dizer apenas “use IA em tudo”?",
+      "prompt": null
+    }
+  ],
+  "02-ia-generativa": [
+    {
+      "titulo": "Uma informação, vários públicos",
+      "explicacao": "A Café Horizonte vai abrir no sábado das 8h às 12h. É preciso avisar clientes no Instagram, no WhatsApp e por um pequeno cartaz.",
+      "olhar": "O horário é um fato. O texto pode mudar conforme o canal, mas o fato não.",
+      "prompt": null
+    },
+    {
+      "titulo": "A analogia do redator",
+      "explicacao": "Um redator recebe as mesmas informações e adapta a maneira de contar a novidade. A IA generativa faz algo semelhante: cria versões de conteúdo a partir de instruções.",
+      "olhar": "Criar um texto novo não é a mesma coisa que conferir se a informação é verdadeira.",
+      "prompt": null
+    },
+    {
+      "titulo": "Demonstre no Gemini",
+      "explicacao": "Peça três formas diferentes de apresentar o horário, com linguagem adequada a cada canal.",
+      "olhar": "Compare o tom dos textos e confirme que “8h às 12h” aparece corretamente.",
+      "prompt": "A Café Horizonte abrirá neste sábado, das 8h às 12h. Usando SOMENTE esse fato, crie: (1) uma legenda para Instagram; (2) uma mensagem breve de WhatsApp; (3) um cartaz de até 12 palavras. Não invente promoções, endereços ou entregas."
+    },
+    {
+      "titulo": "O que conferir antes de divulgar",
+      "explicacao": "Uma mensagem bonita pode ser inadequada se trouxer promoção, entrega ou endereço que não foram informados.",
+      "olhar": "Revisão obrigatória: horário correto, tom adequado e ausência de informações inventadas.",
+      "prompt": null
+    },
+    {
+      "titulo": "Tente em outro negócio",
+      "explicacao": "Uma papelaria fechará mais cedo na sexta-feira, às 16h. Crie um aviso para a porta e uma mensagem de WhatsApp sem acrescentar motivos não informados.",
+      "olhar": "Os dois textos comunicam o mesmo fato com formatos diferentes?",
+      "prompt": null
+    }
+  ],
+  "03-ia-negocios": [
+    {
+      "titulo": "Qual problema vale resolver?",
+      "explicacao": "A Café Horizonte recebe muitas perguntas repetidas, demora para criar posts e mantém anotações espalhadas. Não é necessário tentar resolver tudo ao mesmo tempo.",
+      "olhar": "Comece identificando um trabalho repetitivo ou demorado que realmente afeta o negócio.",
+      "prompt": null
+    },
+    {
+      "titulo": "A analogia da caixa de ferramentas",
+      "explicacao": "Você não usa um martelo para apertar um parafuso. Do mesmo modo, não vale colocar IA em toda tarefa. A ferramenta deve combinar com o problema.",
+      "olhar": "Uma boa oportunidade é útil, viável, de baixo risco e possível de medir.",
+      "prompt": null
+    },
+    {
+      "titulo": "Peça ajuda para priorizar",
+      "explicacao": "Solicite uma comparação das três dificuldades da cafeteria, com justificativas simples, sem inventar números.",
+      "olhar": "Veja se a recomendação considera custo, tempo, risco e possibilidade de conferência.",
+      "prompt": "A Café Horizonte enfrenta: muitas perguntas repetidas sobre horários, demora para preparar postagens e anotações desorganizadas. Sugira por qual problema começar a usar IA. Compare utilidade, facilidade, risco e como medir a melhoria. Não invente estatísticas."
+    },
+    {
+      "titulo": "Escolha e meça",
+      "explicacao": "Se o problema escolhido for responder dúvidas frequentes, a equipe pode medir quantas respostas preparou com apoio da IA e quantas precisaram de correção.",
+      "olhar": "Não diga “melhorou 80%” sem uma medição real. Defina primeiro o que vai observar.",
+      "prompt": null
+    },
+    {
+      "titulo": "Leve para o seu contexto",
+      "explicacao": "Pense em um salão ou loja que você conhece. Escreva um problema frequente, uma forma de a IA ajudar e um indicador fácil de acompanhar.",
+      "olhar": "Seu indicador mostra uma mudança observável ou apenas uma impressão?",
+      "prompt": null
+    }
+  ],
+  "04-prompts": [
+    {
+      "titulo": "Um pedido vago",
+      "explicacao": "A Café Horizonte quer divulgar um combo de café e pão de queijo por R$ 12,00. Alguém escreve ao Gemini: “Faça uma propaganda boa”.",
+      "olhar": "O que falta para a IA produzir algo realmente utilizável?",
+      "prompt": null
+    },
+    {
+      "titulo": "A analogia do briefing",
+      "explicacao": "Pedir uma arte a um designer sem explicar produto, público ou objetivo gera dúvidas. Um pedido ao Gemini precisa das mesmas informações essenciais.",
+      "olhar": "C.O.I.R.F.: contexto, objetivo, instrução, restrições e formato. É um guia, não uma fórmula obrigatória.",
+      "prompt": null
+    },
+    {
+      "titulo": "Construa e experimente",
+      "explicacao": "Acrescente as informações que faltavam, teste no Gemini e compare com o pedido vago.",
+      "olhar": "Confira se o preço é R$ 12,00 e se não surgiram descontos ou entregas inventadas.",
+      "prompt": "Contexto: sou responsável pelo Instagram da Café Horizonte. Objetivo: divulgar combo de café coado e pão de queijo por R$ 12,00. Instrução: crie uma legenda convidativa para trabalhadores da região. Restrições: até 70 palavras; não inventar desconto, entrega ou prazo. Formato: título, legenda e chamada para ação."
+    },
+    {
+      "titulo": "Compare os dois resultados",
+      "explicacao": "O pedido mais detalhado não é melhor por ser longo; ele é melhor se orientar a tarefa e reduzir dúvidas. Ainda assim, a revisão humana continua necessária.",
+      "olhar": "Pergunte: a resposta atende ao público, respeita os fatos e tem o formato pedido?",
+      "prompt": null
+    },
+    {
+      "titulo": "Escreva seu pedido",
+      "explicacao": "Uma floricultura vende um buquê por R$ 35. Monte seu pedido para uma postagem de até 60 palavras, sem inventar descontos.",
+      "olhar": "Conseguiu incluir o preço informado, o público e um cuidado contra invenções?",
+      "prompt": null
+    }
+  ],
+  "05-refinamento": [
+    {
+      "titulo": "A primeira resposta não é a última",
+      "explicacao": "Um cliente avisa: “Meu pedido chegou errado”. A primeira resposta do Gemini pode ser educada, mas genérica ou prometer solução sem conferência.",
+      "olhar": "Depois de gerar, leia e identifique o que ainda precisa ser ajustado.",
+      "prompt": null
+    },
+    {
+      "titulo": "A analogia da roupa sob medida",
+      "explicacao": "Uma roupa pode precisar de ajustes até servir bem. Com textos, é parecido: peça para encurtar, adequar o tom e retirar promessas indevidas.",
+      "olhar": "Ajustar o texto melhora a adequação; conferir os fatos é outro trabalho.",
+      "prompt": null
+    },
+    {
+      "titulo": "Faça duas rodadas no Gemini",
+      "explicacao": "Primeiro peça uma resposta cordial. Depois exija que ela não prometa reembolso ou data antes da análise do pedido.",
+      "olhar": "Compare as versões: qual protege melhor o cliente e a empresa?",
+      "prompt": "Atenda uma reclamação fictícia da Café Horizonte: “Meu pedido chegou errado”. Crie uma resposta curta, respeitosa e clara. Não prometa estorno, troca ou prazo sem confirmação. Diga que a equipe verificará o caso e solicite somente as informações necessárias para localizar o pedido."
+    },
+    {
+      "titulo": "O que mudou?",
+      "explicacao": "Um bom ajuste remove frases como “resolveremos hoje” se ninguém confirmou o prazo. Também evita pedir dados pessoais desnecessários.",
+      "olhar": "Se surgir uma promessa não confirmada, refine outra vez antes de usar.",
+      "prompt": null
+    },
+    {
+      "titulo": "Pratique com uma loja",
+      "explicacao": "Uma pessoa reclama de atraso numa loja de roupas. Crie a resposta e faça uma segunda rodada para torná-la mais curta e precisa.",
+      "olhar": "Você mudou só o estilo ou também verificou as informações?",
+      "prompt": null
+    }
+  ],
+  "06-produtividade": [
+    {
+      "titulo": "Uma pilha de comentários",
+      "explicacao": "A Café Horizonte tem comentários fictícios de clientes. A equipe deseja descobrir quais assuntos aparecem com maior frequência.",
+      "olhar": "Antes de pedir um resumo, defina qual material servirá de fonte.",
+      "prompt": null
+    },
+    {
+      "titulo": "A analogia da biblioteca",
+      "explicacao": "Uma pessoa pode organizar os livros de uma biblioteca, mas precisa saber quais livros consultou. O Gemini também deve trabalhar sobre uma fonte identificável.",
+      "olhar": "Resumo útil precisa manter ligação com o texto original.",
+      "prompt": null
+    },
+    {
+      "titulo": "Faça o teste com uma fonte",
+      "explicacao": "Use o arquivo fictício disponível na aula. Peça para agrupar comentários e contar ocorrências sem criar informações ausentes.",
+      "olhar": "Confira as contagens diretamente no arquivo. Se diferirem, não use o resultado como fato.",
+      "prompt": "Vou enviar um arquivo com comentários fictícios de clientes. Use SOMENTE esse arquivo. Agrupe os comentários por assunto, informe a contagem de cada assunto, cite os trechos que justificam a classificação e confira se a soma das contagens corresponde ao total de comentários. Se não puder conferir, explique o limite."
+    },
+    {
+      "titulo": "Confira, não só leia",
+      "explicacao": "A IA pode escrever uma síntese convincente e mesmo assim contar errado. Abra a fonte e faça uma conferência simples.",
+      "olhar": "Uma boa resposta distingue o que está nos registros daquilo que é sugestão de melhoria.",
+      "prompt": null
+    },
+    {
+      "titulo": "Use no seu negócio",
+      "explicacao": "Imagine seis comentários fictícios de uma loja ou pet shop. Agrupe por assunto e confira se nenhum comentário foi esquecido.",
+      "olhar": "Você consegue apontar de onde veio cada conclusão?",
+      "prompt": null
+    }
+  ],
+  "07-processos": [
+    {
+      "titulo": "O caminho de uma solicitação",
+      "explicacao": "Um cliente pergunta o horário da cafeteria. A equipe lê a mensagem, procura a informação, responde e registra o atendimento.",
+      "olhar": "Essa sequência de ações é um processo de trabalho.",
+      "prompt": null
+    },
+    {
+      "titulo": "A analogia da receita",
+      "explicacao": "Para fazer um bolo, não basta ter os ingredientes. A ordem dos passos importa. Na empresa também: mudar um passo pode afetar os seguintes.",
+      "olhar": "Antes de automatizar, é preciso entender como funciona hoje e onde ocorre a demora.",
+      "prompt": null
+    },
+    {
+      "titulo": "Desenhe com o Gemini",
+      "explicacao": "Descreva as etapas atuais e peça uma versão mais simples, ainda com conferência humana quando necessária.",
+      "olhar": "Não permita que a proposta pule verificações importantes, como confirmar horário ou disponibilidade.",
+      "prompt": "Na Café Horizonte, o processo atual é: cliente pergunta → atendente lê → procura informação em documento → escreve resposta → registra atendimento. Apresente (1) o processo atual em passos; (2) possíveis esperas ou retrabalho; (3) uma versão melhorada com apoio de IA para rascunhar a resposta, mas conferência humana antes do envio. Use linguagem simples."
+    },
+    {
+      "titulo": "Apoiar não é automatizar tudo",
+      "explicacao": "A IA pode sugerir uma resposta, mas isso não quer dizer que ela esteja conectada ao WhatsApp ou enviando mensagens sozinha.",
+      "olhar": "A ação automática só acontece se existir uma ferramenta configurada para isso.",
+      "prompt": null
+    },
+    {
+      "titulo": "Agora outra situação",
+      "explicacao": "Uma marmitaria recebe pedidos, confere disponibilidade, calcula preço e confirma entrega. Qual etapa deve continuar exigindo conferência?",
+      "olhar": "Seu processo melhorado preserva a verificação de disponibilidade?",
+      "prompt": null
+    }
+  ],
+  "08-seguranca": [
+    {
+      "titulo": "Antes de compartilhar, examine",
+      "explicacao": "Um funcionário quer pedir ao Gemini um resumo de atendimentos. O arquivo inclui nomes completos, contatos e detalhes desnecessários.",
+      "olhar": "Uma tarefa legítima não autoriza enviar qualquer informação.",
+      "prompt": null
+    },
+    {
+      "titulo": "A analogia dos armários",
+      "explicacao": "Em uma empresa, nem toda pessoa tem a chave de todos os armários. Com IA, vale a mesma lógica: use só os dados necessários e autorizados.",
+      "olhar": "Ter acesso a uma informação não significa ter permissão para enviá-la a uma ferramenta.",
+      "prompt": null
+    },
+    {
+      "titulo": "Faça um pedido mais seguro",
+      "explicacao": "Troque nomes e contatos por contagens fictícias de assuntos antes de solicitar um resumo.",
+      "olhar": "Veja se os exemplos continuam úteis sem identificar ninguém.",
+      "prompt": "Considere somente dados fictícios e agrupados: 4 perguntas sobre horário, 3 sobre cardápio e 2 sobre entrega. Organize uma tabela com assunto, quantidade e sugestão de melhoria. Não crie pessoas, nomes, telefones ou detalhes não informados."
+    },
+    {
+      "titulo": "Verifique o limite",
+      "explicacao": "Mesmo sem nomes, alguns conjuntos pequenos podem permitir identificar pessoas. Antes de compartilhar dados reais, consulte as regras da organização e permissões.",
+      "olhar": "Em dúvida, use exemplos inventados como neste curso.",
+      "prompt": null
+    },
+    {
+      "titulo": "Tome uma decisão",
+      "explicacao": "Uma clínica quer resumir dúvidas de clientes. Como transformar o pedido em uma atividade didática sem expor registros reais?",
+      "olhar": "Você retirou identificadores e informações sensíveis desnecessárias?",
+      "prompt": null
+    }
+  ],
+  "09-projeto": [
+    {
+      "titulo": "Escolha um problema pequeno",
+      "explicacao": "A Café Horizonte perde tempo escrevendo respostas para perguntas repetidas. O projeto não precisa automatizar um canal inteiro.",
+      "olhar": "O primeiro passo é formular um problema que caiba em um teste simples.",
+      "prompt": null
+    },
+    {
+      "titulo": "A analogia de uma reforma",
+      "explicacao": "Antes de reformar uma cozinha, você define o que será melhorado, mede o espaço e confere o resultado. Com IA, também é melhor começar com um plano pequeno.",
+      "olhar": "O projeto precisa ter objetivo, atividade, revisão e forma de medir.",
+      "prompt": null
+    },
+    {
+      "titulo": "Peça uma proposta de piloto",
+      "explicacao": "Use o Gemini para organizar um teste de preparação de respostas frequentes, sem envio automático.",
+      "olhar": "Confira se ele preserva a revisão humana e não promete ganhos sem medição.",
+      "prompt": "Crie um projeto piloto para a Café Horizonte. Problema: a equipe demora para redigir respostas sobre horários e cardápio. Sugira uma forma de usar o Gemini para rascunhar respostas, com conferência humana antes de enviar. Descreva etapas, possíveis erros, como testar com perguntas fictícias e um indicador simples. Não invente resultados ou percentuais."
+    },
+    {
+      "titulo": "Como saber se ajudou?",
+      "explicacao": "Defina o que vai observar no teste: tempo gasto, quantidade de correções ou clareza das respostas. Compare com o processo atual.",
+      "olhar": "Resultado esperado é uma hipótese; resultado alcançado só existe depois da medição.",
+      "prompt": null
+    },
+    {
+      "titulo": "Monte seu mini-projeto",
+      "explicacao": "Escolha uma empresa fictícia e complete: problema, pedido ao Gemini, atividade prática, revisão e indicador.",
+      "olhar": "Você consegue explicar o projeto em dois minutos sem depender da IA?",
+      "prompt": null
+    }
+  ]
+}
